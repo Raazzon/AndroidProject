@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d07669"
+    tools:context="com.example.razzon.login_form.search_doctor">
+
+    <TextView
+        android:id="@+id/sd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Search Doctor"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sd"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Search By:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinerd"
+        android:layout_width="260dp"
+
+        android:layout_alignTop="@+id/sb"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/sd"
+        android:layout_height="wrap_content"></Spinner>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sb"
+        android:layout_centerHorizontal="true"
+        android:ems="15"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:hint="Enter Name" />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_centerInParent="true"
+        android:paddingTop="15dp"
+        android:text="search" />
+</RelativeLayout>

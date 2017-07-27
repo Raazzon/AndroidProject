@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fd6856"
+        android:padding="20dp"
+        tools:context="com.example.razzon.login_form.main_login_activity">
+
+        <TextView
+            android:id="@+id/title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Patient Registration Form"
+            android:textColor="#ffffff"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/fn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title2"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:text="Full Name:"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/fname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/fn"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/title2"
+            android:background="#ffffff"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Full Name"
+            android:textColorHint="#000" />
+
+        <TextView
+            android:id="@+id/ln"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fn"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:text="User Name:"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/lname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/ln"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/title2"
+            android:background="#ffffff"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="User Name"
+            android:textColorHint="#000" />
+
+        <TextView
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ln"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:text="Address:"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/add"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/title2"
+            android:background="#ffffff"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Address"
+            android:textColorHint="#000" />
+
+        <TextView
+            android:id="@+id/pn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/add"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:text="Phone No:"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/pnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/pn"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/address"
+            android:background="#fff"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Phone Number"
+            android:textColorHint="#000" />
+
+        <TextView
+            android:id="@+id/ta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pnum"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:text="Age:"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/Age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/ta"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/pnum"
+            android:background="#fff"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Age"
+            android:textColorHint="#000" />
+
+        <TextView
+            android:id="@+id/temail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Age"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:text="Email:"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/temail"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/Age"
+            android:background="#fff"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Email"
+            android:textColorHint="#000" />
+
+        <TextView
+            android:id="@+id/pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/email"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:text="Password:"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/password1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/pass"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/email"
+            android:background="#fff"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColorHint="#000" />
+
+        <TextView
+            android:id="@+id/bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pass"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:text="Blood Group:"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/bgroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/bg"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/password1"
+            android:background="#fff"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Blood Group"
+            android:textColorHint="#000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bg"
+            android:layout_marginTop="10dp"
+            android:text="Gender:"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/bg"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bgroup"
+                android:checked="true"
+                android:paddingLeft="15dp"
+                android:text="Male"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bgroup"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:text="Female"
+
+                android:textColor="#000"
+                android:textSize="20sp" />
+        </RadioGroup>
+        <ImageView android:id="@+id/image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/gender"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_menu_camera"
+            android:background="#ffaafa"/>
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image"
+            android:layout_marginTop="20dp"
+            android:background="#d07669"
+            android:text="Register"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:background="#d07669"
+            android:text="Cancel"
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>
+</ScrollView>

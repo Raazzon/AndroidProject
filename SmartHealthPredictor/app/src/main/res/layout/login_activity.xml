@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context="com.example.razzon.smarthealthpredictor.LoginActivity"
+    android:id="@+id/login">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="Login"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:ems="15"
+        android:gravity="center"
+        android:hint="UserName"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editun"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+        android:ems="15"
+        android:gravity="center"
+        android:hint="Password"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/chkrm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/editpassword"
+        android:layout_marginTop="10dp"
+        android:text="Remember Me"
+        android:textSize="15sp"
+         />
+
+    <CheckBox
+        android:id="@+id/chkfp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/editpassword"
+        android:layout_marginTop="10dp"
+        android:text="Forget Password"
+        android:textSize="15sp"
+         />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chkrm"
+        android:layout_marginTop="10dp"
+        android:background="#e57474"
+
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/btnsignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chkrm"
+
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:background="#e57474"
+        android:text="SignUp" />
+
+    <Button
+        android:id="@+id/btnclear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/chkrm"
+        android:layout_marginTop="10dp"
+        android:background="#e57474"
+        android:text="clear" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_below="@id/btnlogin"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary" />
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="32.5dp"
+        android:layout_below="@id/btnlogin"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/txtor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnlogin"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:text="OR"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_below="@id/txtor"
+        android:background="@color/colorPrimary" />
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="32.5dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/btnlogin"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary" />
+
+
+</RelativeLayout>

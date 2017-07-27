@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Hospital System Predector</string>
+    <string name="title_activity_navbar">navbar</string>
+
+    <string name="facebook_app_id">436870743312125</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_page">main_page</string>
+    <string name="title_activity_nav_drawer">NavDrawer</string>44
+
+</resources>

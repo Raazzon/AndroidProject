@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d07669"
+    tools:context="com.example.razzon.login_form.remainder">
+
+    <TextView
+        android:id="@+id/remainder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Remainder"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/remainder"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:text="Medicine Name:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/emn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/mn"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/remainder"
+        android:ems="11"
+        android:gravity="center"
+        android:hint="Medicine Name" />
+
+    <Button
+        android:id="@+id/sr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Set Remainder" />
+
+    <LinearLayout
+        android:id="@+id/showlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sr"
+
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sr"
+            android:paddingLeft="10dp"
+            android:paddingTop="20dp"
+            android:text="Time:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+             />
+
+        <EditText
+            android:id="@+id/et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/time"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/sr"
+            android:ems="15"
+            android:gravity="center"
+            android:hint="Enter Time"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Set"
+             />
+    </LinearLayout>
+</RelativeLayout>

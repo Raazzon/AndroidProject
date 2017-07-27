@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context="com.example.razzon.smarthealthpredictor.FullDetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="1"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/Fullname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Rajan Chaulagain"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/UserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Frozenfire"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/Password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:inputType="numberPassword"
+            android:text="Frozenfire"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/Address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Kapan"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/Phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="9803066957"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/Age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:inputType="number"
+            android:text="21"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="RAjan@gmail.com"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/Gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Male"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Upadte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:text="Update" />
+
+            <Button
+                android:id="@+id/Delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@color/colorAccent"
+                android:text="Delete" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
