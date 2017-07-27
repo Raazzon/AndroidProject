@@ -1,0 +1,45 @@
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.royoform.nearu.MapsActivity"/>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <Button
+            android:layout_above="@+id/btnHospital"
+            android:id="@+id/btnRestaurant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:backgroundTint="#bc4de7"
+            android:text="Restaurants" />
+        <Button
+            android:layout_above="@+id/btnSchool"
+            android:id="@+id/btnHospital"   android:textColor="#fff"
+            android:backgroundTint="#bc4de7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hospitals" />
+
+        <Button
+            android:id="@+id/btnSchool"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"   android:textColor="#fff"
+            android:backgroundTint="#bc4de7"
+            android:layout_height="wrap_content"
+            android:text="Schools" />
+
+    </RelativeLayout>
+</FrameLayout>
