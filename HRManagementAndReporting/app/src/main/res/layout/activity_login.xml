@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="micnepal.hrmanagementandreporting.LoginActivity">
+
+    <TextView
+        android:id="@+id/hl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="User Login"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hl"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        android:ems="15"
+        android:gravity="center"
+        android:hint="UserName"
+        android:lines="1"
+        android:paddingTop="15dp"
+        android:textColor="@color/colorPrimary" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        android:ems="15"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:lines="1"
+        android:paddingTop="15dp"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"
+        android:text="LOGIN"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Forgotpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:text="Forgot your password?"
+        android:textColor="@color/colorPrimary"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:id="@+id/newaccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Forgotpassword"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:text="Create New Account"
+        android:textColor="@color/colorPrimary"
+        android:textIsSelectable="true" />
+
+</RelativeLayout>
